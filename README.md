@@ -28,4 +28,4 @@ This project focuses on collecting historical stock price data for S&P 500 compa
 - **singeInstance.py** : Train the model with single instance
 
 
- ### “Generative AI is used to enhance grammatical accuracy and rephrase content using more professional terminology for the project"
+<span style="font-size: smaller;">Generative AI is used to enhance grammatical accuracy and rephrase content using more professional terminology for the project.</span>
