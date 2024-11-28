@@ -16,16 +16,10 @@ This project focuses on collecting historical stock price data for S&P 500 compa
 - **Scheduler**: The data collection process is automated with a scheduler that runs every 7 days at 08:00 AM HKT.
 - **Machine Learning**: The collected data will be used for machine learning analysis on stock price trends and patterns.
 
-## Prerequisites
-- Python 3.x
-- Required Python libraries:
-  - `apscheduler`
-  - `pandas`
-  - `yfinance`
-  - `pytz`
-  - `requests`
-  - `beautifulsoup4`
-  - `mysql-connector-python`
+## Environment Setting in EC2 instance
+sudo apt install git
+sudo apt install python3 python3-pip
+pip3 install pandas numpy pymysql scikit-learn tensorflow
 
 ## Setup Instructions
 1. **Clone the Repository**:
