@@ -22,7 +22,7 @@ This project focuses on collecting historical stock price data for S&P 500 compa
 - pip3 install pandas numpy pymysql scikit-learn tensorflow
 
 ## Code Explanation
-- **DailyDataCollectorToSQL.ipynb** : Fetches historical stock price data for S&P 500 companies over the past 7 days, automatically collecting data every 7 days based on Hong Kong Time (HKT) using Scheduler.
+- **DailyDataCollectorToSQL.py** : Fetches historical stock price data for S&P 500 companies over the past 7 days, automatically collecting data every 7 days based on Hong Kong Time (HKT) using Scheduler.
 - **master.py** : Distributes data into worker instances and get result from worekr instances
 - **worker.py** : Get partition data from worker instance, train model with the data, and send the result to master instance
 - **singeInstance.py** : Train the model with single instance
