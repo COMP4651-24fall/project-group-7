@@ -2,9 +2,9 @@
 # Project
 
 ## Group 7
-- **LEE, JIMIN** (ID: 20729482, GitHub: jleecg)
-- **SHIN, Yunju** (ID: 20723012, GitHub: yshinac)
-- **KIM, Hyunju** (ID: 20792810, GitHub: hkimbd)
+- **LEE, JIMIN** (Student ID: 20729482, ITSC: jleecg)
+- **SHIN, Yunju** (Student ID: 20723012, ITSC: yshinac)
+- **KIM, Hyunju** (Student ID: 20792810, ITSC: hkimbd)
 
 ## Overview
 This project focuses on collecting historical stock price data for S&P 500 companies using the Yahoo Finance API, processing it, and uploading it to a MySQL database hosted on an AWS RDS cloud platform. The collected data will later be utilized for machine learning analysis.
@@ -12,7 +12,7 @@ This project focuses on collecting historical stock price data for S&P 500 compa
 ## Features
 - **Data Collection**: The project fetches historical stock price data for S&P 500 companies over the past 7 days, automatically collecting data every 7 days based on Hong Kong Time (HKT).
 - **Data Processing**: Data is cleaned and organized before being uploaded to the database.
-- **Database Integration**: Data is uploaded in batches to a MySQL database.
+- **Database Integration**: Data is uploaded in batches to a MySQL database on AWS RDS.
 - **Scheduler**: The data collection process is automated with a scheduler that runs every 7 days at 08:00 AM HKT.
 - **Machine Learning**: The collected data will be used for machine learning analysis on stock price trends and patterns.
 
