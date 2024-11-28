@@ -17,9 +17,9 @@ This project focuses on collecting historical stock price data for S&P 500 compa
 - **Machine Learning**: The collected data will be used for machine learning analysis on stock price trends and patterns.
 
 ## Environment Setting in EC2 instance
-sudo apt install git
-sudo apt install python3 python3-pip
-pip3 install pandas numpy pymysql scikit-learn tensorflow
+- sudo apt install git
+- sudo apt install python3 python3-pip
+- pip3 install pandas numpy pymysql scikit-learn tensorflow
 
 ## Setup Instructions
 1. **Clone the Repository**:
