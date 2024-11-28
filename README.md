@@ -27,8 +27,5 @@ This project focuses on collecting historical stock price data for S&P 500 compa
 - **worker.py** : Get partition data from worker instance, train model with the data, and send the result to master instance
 - **singeInstance.py** : Train the model with single instance
 
-## Setup Instructions
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+
+ ### “Generative AI is used to enhance grammatical accuracy and rephrase content using more professional terminology for the project"
